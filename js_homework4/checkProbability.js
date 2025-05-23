@@ -24,4 +24,8 @@ function checkProbabilityTheory(count) {
 }
 
 
-checkProbabilityTheory(100);
+checkProbabilityTheory(10);    // швидка перевірка
+console.log(""); // Порожній рядок для поділу
+checkProbabilityTheory(100);   // Більш стабільний результат
+console.log(""); // Порожній рядок для поділу
+checkProbabilityTheory(1000);  // майже точне 50/50
