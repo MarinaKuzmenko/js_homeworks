@@ -28,7 +28,7 @@ for (var i = 0; i < suitable.length; i++) {
 }
 console.log(suitableLine);
 
-// Виводимо результат для підходящих слів
+// Виводимо результат для не підходящих слів
 console.log("\n❌ Не підходять:");
 var unsuitableLine = "";
 for (var i = 0; i < unsuitable.length; i++) {
